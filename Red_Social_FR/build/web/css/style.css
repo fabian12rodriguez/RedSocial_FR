@@ -1,0 +1,116 @@
+body{
+    font-family: 'Abel', sans-serif;
+    background-image: url(https://www.xtrafondos.com/wallpapers/fractal-de-circulo-en-tunel-azul-3d-3589.jpg);
+    color: white;
+    width: 100vw ;
+    height: 100vh ;
+}
+nav a{
+    border-radius: 1em;
+
+}
+
+.barra_titulo{
+    border: 5px solid rgb(255,193,7);
+    border-radius: 10px;
+}
+
+a, button{
+    padding: 0.4em 0;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+a:hover, button:hover{
+    background-color:rgba(17, 51, 245, 0.822);
+    color:rgba(17, 51, 245, 0.822);
+
+}
+
+
+.boton{
+    padding: 1.5rem;
+    color: black;
+    background-color:white;
+    border-radius: 1em;
+
+
+}
+
+.boton_home{
+    display: inline-block;
+    border-radius: 1em;    
+    padding: 0.6rem 0.5rem;
+    margin-bottom: 1.0rem!important;
+
+
+}
+.botonera{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header{
+    margin-bottom: 2em;
+}
+nav{
+    margin-top: 3em;
+}
+
+.separador{
+    height: 1vh;
+}
+
+.max{
+    height: 15vh;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    border: 2px solid rgba(125, 203, 255, 0.822);
+    padding: 2em;
+    border-radius: 1em;
+    flex: 0 0 calc(25% - 10px);
+
+}
+
+li a {
+    margin-left: 0; 
+    padding: 1em;
+}
+.card{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 968px) {
+    .lista{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    li{
+        flex: 1 0 calc(33.3% - 10px);
+        margin-bottom: 1.5em;
+    }
+
+}
+
+
+
+
+
